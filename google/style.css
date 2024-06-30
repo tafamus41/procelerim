@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: Arial, Helvetica, sans-serif;
+ }
+main{
+  display: flex;
+  height: 80vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.başlık {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  
+}
+.sol {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sag a,
+.sol a {
+  text-decoration: none;
+  margin-right: 1rem;
+  font-size: 0.8rem;
+  color:black
+}
+.sol button {
+  background-color: #4285f4;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.sag a:hover,
+.sol a:hover{
+    text-decoration: underline;
+}
+.govde{
+  display: flex;
+  justify-content: center;
+  font-size: 5rem;
+}
+
+.google1, .google4{
+    color:#4285F4;
+}
+.google2, .google6{
+   color:#EA4335;
+}
+.google3{
+  color: #FBBC05;
+}
+.google5{
+ color:   #34A853;
+}
+.arama{
+   height: 50px;
+   width: 25rem;
+   display: flex;
+   align-items: center;
+   border-radius: 50px;
+   justify-content: center;
+   border: 1px solid #D3D3D3;
+ }
+ .textbox{
+  background: none;
+  border: none;
+  outline: none;
+}
+
+.aramaaltı{
+   width: 100vw;
+  height: 20vh;
+text-align: center;
+padding-top: 2rem;
+}
+.aramaaltı input{
+  margin-left: 1rem;
+  padding: 0.7rem;
+  border: none;
+}
+.aramaaltı input:hover{
+  cursor: pointer;
+  box-shadow: 0 0 5px ;
+}
+.aramaaltı p{
+  margin: 1rem;
+    font-size: 0.9rem;
+}
+span{
+  color:blue
+}
+span:hover{
+  cursor: pointer;
+}
+footer{
+display:flex;
+position: fixed;
+bottom: 4rem;
+right: 4rem;
+}
+footer button{
+  border:none;
+  background: none;
+}
+.customize{
+height: 40px;
+display:flex;
+justify-content: center;
+align-items: center;
+border-radius: 40px;
+width: 10rem;
+background-color: #D3E3FD;
+gap: 0.5rem;
+}
