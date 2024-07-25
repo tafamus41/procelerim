@@ -1,0 +1,43 @@
+.banner {
+  background-image: url(./banner.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+.fas {
+  display: inline-block;
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+}
+.resim img{
+
+  width: 150px;
+  border-radius: 50%;
+  float:left;
+  shape-outside: circle();
+  margin-right: 3rem;
+  aspect-ratio: 1;
+}
+.metin{
+  text-align: justify;
+}
+.harvey img{
+  border-radius: 50%;
+  border:10px solid rgb(204,204,204);
+}
+.fab{
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  place-content: center;
+
+}
+.footer{
+  background-image: url(./back.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
