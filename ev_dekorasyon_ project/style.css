@@ -1,0 +1,410 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellota:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Judson:ital,wght@0,400;0,700;1,400&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+  body {
+  width: 80vw;
+  height: 265vh;
+  margin: auto;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  background-color: #efefef;
+  box-shadow: 10px 10px 20px rgb(19, 18, 18);
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #eeecec;
+  padding: 0.5rem ;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.sağ {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.arama {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid whitesmoke;
+  flex-wrap: wrap;
+  background-color: rgb(197, 194, 194);
+  height: 3rem;
+}
+#arama {
+  width: 80%;
+  border: none;
+  outline: none;
+  background: none;
+}
+
+#kategori {
+  background-color: rgb(197, 194, 194);
+  height: 3rem;
+}
+hr {
+  margin-left: 4rem;
+}
+.kullanici {
+  display: flex;
+  padding: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.altnav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1rem 6rem;
+}
+.select {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  width: 16rem;
+  height: 2.5rem;
+  gap: 1rem;
+  padding-left: 1.5rem;
+  background-color: rgb(197, 194, 194);
+}
+#select {
+  border: none;
+  background: none;
+  outline: none;
+  font-family: "Judson", serif;
+  font-size: 1.3rem;
+  font-style: italic;
+}
+
+.altnav ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: last baseline;
+  gap: 1rem;
+  max-width: 100%;
+}
+.altnav ul li {
+  list-style-type: none;
+  font-family: "Judson", serif;
+  font-size: 1.3rem;
+  font-weight: 100;
+}
+.ustBolum {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  gap: 5%;
+  background-color: #4e4b4c;
+  width: 80vw;
+  height: 40vh;
+}
+#sofa {
+  background-color: #d5dee5; 
+  height: 80%;
+  width: 60%;
+  position: relative; 
+  }
+ #sofa img{
+  position: absolute;
+  top:10%;
+  right: 5%;
+  width: 40%;
+  height:100%;
+}
+#sofa span {
+  position: absolute;
+  top: 10%;
+  left: 4%;
+  font-family: "Judson", serif;
+  font-style: italic;
+  width: 50%;
+} 
+#koltuk {
+  background-color: #ffc868;
+  height: 80%;
+  width: 30%;
+  position: relative;
+  }
+#koltuk img{
+  width: 100%;
+  height:100%;
+}
+#koltuk span {
+  position: absolute;
+  top: 5%;
+  left: 3%;
+  width: 100%;
+  font-family: "Judson", serif;
+  font-style: italic;
+} 
+.ortaBolum {
+  background-color: #aea08d;
+  width: 80vw;
+  height: 90vh;
+}
+.ortaBolum h3 {
+  font-family: "Judson", serif;
+  font-size: 1.5rem;
+  font-weight: 200;
+  padding: 2rem 0 0 2rem;
+}
+.Category {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 80vw;
+  height: 45%;
+}
+
+.ortaResim {
+  width: 25%;
+  height: 80%;
+  background-color: #e5e2df;
+  box-shadow: 2px 2px 50px black;
+  position: relative;
+}
+
+.ortaResim img {
+  width: 80%;
+  height: 80%;
+  margin: 1.5rem 0 0 3.5rem;
+  border-radius: 10%;
+  position: absolute;
+  bottom:2%;
+  right: 4%;
+}
+
+.ortaResim p {
+  font-family: "Josefin Slab", serif;
+  font-size: 1.2rem;
+  margin: 0.5rem 0 0 0.5rem;
+}
+.ortaAlt {
+  width: 25%;
+  height: 38%;
+  background-color: #e5e2df;
+  box-shadow: 2px 2px 50px black;
+  margin: auto;
+  margin-bottom: 4rem;
+  position:relative;
+}
+
+.ortaAlt img {
+  width: 80%;
+  height: 80%;
+  margin: 1.5rem 0 0 3.5rem;
+  border-radius: 10%;
+  position: absolute;
+  bottom:2%;
+  right: 4%;
+}
+.ortaAlt p {
+  font-family: "Josefin Slab", serif;
+  font-size: 1.2rem;
+  padding: 1rem 0 0 0.5rem;
+}
+.enaltBolum {
+  width: 80vw;
+  height: 70vh;
+  background-color: #eeecec;
+}
+.Products1,
+.Products2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  height: 40%;
+  width: 100%;
+}
+.Products2 {
+  margin-top: 1.5rem;
+}
+.ilksıra,
+.ikincisıra {
+  width: 28%;
+  height: 100%;
+  background-color: #e5e2df;
+  box-shadow: 2px 2px 50px black;
+  text-align: center;
+  margin-bottom: .5rem;
+}
+
+.ilksıra img,
+.ikincisıra img {
+  width: 100%;
+  height: 80%;
+}
+.enaltBolum h3 {
+  font-family: "Judson", serif;
+  font-size: 1.5rem;
+  font-weight: 200;
+  padding: 2rem 0 0 2rem;
+}
+#footer {
+   width: 100%;
+  height: 14%;
+  background-color: #aea08d;
+}
+.ilkBolum {
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:5rem;
+  height: 100%;
+  width: 100%;
+  }
+.expert {
+  height: 100%;
+  width: 50%;
+  max-width: 300px;
+  padding: 1rem 0 0 0;
+}
+.expert p span {
+  color: #f37730;
+  font-family: "Bellota", system-ui;
+}
+.expert p {
+  font-family: "Bellota", system-ui;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+}
+#leave {
+  font-family: "Judson", serif;
+  font-size: 1rem;
+}
+.form {
+  height: 100%;
+  width: 50%;
+  max-width: 300px;
+  padding: 1rem 0 0 0;
+  border:2px solid red;
+}
+
+#form input {
+  border: none;
+  outline: none;
+  background: none;
+  border-bottom: 1px solid black;
+  width: 85%;
+  margin-bottom: 2rem;
+}
+#form label {
+  font-family: "Judson", serif;
+  font-size: 1.5rem;
+   line-height: 1.5rem;
+}
+button {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  width: 30%;
+  height: 100%;
+  text-align: left;
+  padding-left: 1rem;
+  border-radius: 5%;
+  border:none;
+  outline: none;
+  }
+#buton {
+  height: 2rem;
+}
+
+.ikinciBolum {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+@media screen and (max-width:1192px){
+  .navbar{
+    justify-content: center;
+  }
+  
+}
+@media screen and (max-width:680px){
+  .altnav{
+    justify-content: center;
+  }
+  .altnav ul{
+    display: flex;
+    flex-direction: column;
+  }
+  .ustBolum{
+    flex-direction: column;
+  }
+  #sofa {
+    height: 50%;
+    width: 80%;
+    } 
+     #koltuk {
+      background-color: #ffc868;
+      height: 50%;
+      width: 80%;
+      } 
+      .ilkBolum{
+        flex-direction: column;
+        gap:0;
+      }
+      .expert {
+        height: 50%;
+        width: 100%;
+        max-width: 600px;
+        padding: 0 0 0 2rem;
+        border-bottom: 1px solid black;
+      }
+      .form {
+        height: 50%;
+        width: 100%;
+        max-width: 600px;
+        padding: 0 0 0 2rem;
+      }
+      #form input {
+        width: 35%;
+        margin-bottom: 0;
+      }
+      #form label {
+        font-family: "Judson", serif;
+        font-size: .8rem;
+         line-height: .8rem;
+      
+}
+.expert p {
+  font-family: "Bellota", system-ui;
+  font-size: 1rem;
+  line-height: 1rem;
+  margin-top: 1rem;
+}
+  #leave {
+    font-family: "Judson", serif;
+    font-size: .7rem;
+  }
+  #form{
+    position: relative;
+  }
+  #buton {
+    position: absolute;
+    bottom: 33%;
+    right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  width: 30%;
+  border-radius: 5%; 
+  background-color: #F0F0F0;
+
+  }
+}
+
