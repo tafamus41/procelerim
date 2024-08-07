@@ -58,11 +58,9 @@ document.getElementById('projects').querySelector('h3').innerHTML=`Js Dom Projec
 
 const myProjects = ["Hello World!","Guess Number","Checkout Page","Gelir-Gider Projesi","Api Projects"];
 
-document.getElementById('projects').querySelector('ul').innerHTML=`<li>${myProjects[0]}</li>      
-<li>${myProjects[1]}</li>  
-<li>${myProjects[2]}</li>  
-<li>${myProjects[3]}</li>  
-<li>${myProjects[4]}</li>  `
+myProjects.forEach((word)=>{
+document.querySelector('.liste').innerHTML+=`<li>${word}</li>`})
+
 
 
 
