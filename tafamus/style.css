@@ -1,5 +1,5 @@
 .banner {
-  background-image: url(./banner.jpeg);
+  background-image: url(./img/banner.jpeg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -36,7 +36,7 @@
 
 }
 .footer{
-  background-image: url(./back.jpg);
+  background-image: url(./img/back.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
